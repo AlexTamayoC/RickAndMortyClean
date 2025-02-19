@@ -2,8 +2,8 @@ package com.example.rickandmortyclean.ui
 
 import androidx.recyclerview.widget.RecyclerView.ViewHolder
 import coil.load
-import com.cai.randomuser.R
-import com.cai.randomuser.databinding.RowViewBinding
+import com.example.rickandmortyclean.R
+import com.example.rickandmortyclean.databinding.RowViewBinding
 import com.example.rickandmortyclean.model.Character
 
 class MainViewHolder(

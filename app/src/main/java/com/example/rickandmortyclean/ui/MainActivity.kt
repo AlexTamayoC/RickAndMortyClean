@@ -5,9 +5,8 @@ import android.view.View
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.cai.randomuser.databinding.ActivityMainBinding
+import com.example.rickandmortyclean.databinding.ActivityMainBinding
 import com.example.rickandmortyclean.ui.states.MainStates
-
 
 class MainActivity : AppCompatActivity() {
 

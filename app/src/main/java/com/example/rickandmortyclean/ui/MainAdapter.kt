@@ -3,7 +3,7 @@ package com.example.rickandmortyclean.ui
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.cai.randomuser.databinding.RowViewBinding
+import com.example.rickandmortyclean.databinding.RowViewBinding
 import com.example.rickandmortyclean.model.Character
 
 class MainAdapter : RecyclerView.Adapter<MainViewHolder>() {

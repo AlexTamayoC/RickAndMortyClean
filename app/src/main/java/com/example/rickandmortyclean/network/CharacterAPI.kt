@@ -5,8 +5,10 @@ import retrofit2.http.GET
 import retrofit2.http.Query
 
 interface CharacterAPI {
-    @GET("api/")
-    suspend fun fetchUsers(
-        @Query("character") userSize: Int = 50
+    @GET("character")
+    suspend fun fetchCharacters(
+        @Query("id") id: String
     ): CharacterResponse
 }
+
+

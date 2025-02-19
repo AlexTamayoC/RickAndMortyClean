@@ -1,6 +1,6 @@
 package com.example.rickandmortyclean.network
 
-import com.cai.randomuser.BuildConfig
+import com.example.rickandmortyclean.BuildConfig
 import okhttp3.Interceptor
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor

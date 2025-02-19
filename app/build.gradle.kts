@@ -8,11 +8,11 @@ val minor = 0
 val patch = 1
 
 android {
-    namespace = "com.cai.randomuser"
+    namespace = "com.example.rickandmortyclean"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.cai.randomuser"
+        applicationId = "com.example.rickandmortyclean"
         minSdk = 24
         targetSdk = 34
         versionCode = major * 10000 + minor * 1000 + patch * 100
