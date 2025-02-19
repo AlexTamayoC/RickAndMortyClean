@@ -3,15 +3,11 @@ package com.example.rickandmortyclean.ui
 import android.os.Bundle
 import android.view.View
 import android.widget.Toast
-import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.cai.randomuser.R
 import com.cai.randomuser.databinding.ActivityMainBinding
+import com.example.rickandmortyclean.ui.states.MainStates
 
-//import com.example.rickandmortyclean.R
 
 class MainActivity : AppCompatActivity() {
 
@@ -43,7 +39,7 @@ class MainActivity : AppCompatActivity() {
             when (state) {
                 is MainStates.Error -> {
                     binding.progressBarView.visibility = View.GONE
-                    Toast.makeText(this, R.string.error_message, Toast.LENGTH_SHORT).show()
+                    Toast.makeText(this, "Character Fetching Failed", Toast.LENGTH_SHORT).show()
                 }
 
                 MainStates.Loading -> {
